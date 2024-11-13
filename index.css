@@ -1,0 +1,27 @@
+body {
+    color: #666;
+    font-family: "Inter",serif;
+}
+.nav-buttons {
+    padding: 0px 20px;
+    
+}
+.nav-buttons:hover {
+    color: #387ed1;
+    cursor: pointer;
+}
+#top-bar {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 20px 200px; 
+    box-shadow: 1px 2px 1px #eee;
+}
+#sign-btn {
+    display: inline-block;
+    color: #ffff;
+    margin: 25px;
+    padding: 10px 30px;
+    background-color: #387ed1;
+    font-size: large;
+    font-weight: 500;
+}
